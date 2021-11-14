@@ -17,7 +17,7 @@ import {store} from "./Redux/reduxStore";
 import {ConversationType} from "./Redux/dialogsReducer";
 
 
-
+//test comment
 
 export function AppContainer() {
     let initialized = useSelector<AppStateType>(state => state.app.initialized)
